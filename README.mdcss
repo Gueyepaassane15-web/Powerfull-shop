@@ -1,0 +1,36 @@
+:root {
+--dark: #0a0a0a;
+--accent: #FFD700;
+--white: #ffffff;
+}
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: var(--dark);
+color: var(--white);
+}
+header {
+position: fixed;
+width: 100%;
+transition: 0.4s;
+padding: 20px 0;
+}
+.logo span { color: var(--accent); }
+.hero {
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/
+photo-1534438327276-14e5300c3a48');
+background-size: cover;
+}
+.btn-buy {
+border: 2px solid var(--accent);
+color: var(--accent);
+background: transparent;
+cursor: pointer;
+transition: 0.3s;
+}
+.btn-buy:hover { background: var(--accent); color: black;
