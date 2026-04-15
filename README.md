@@ -73,4 +73,4 @@ background: transparent;
 cursor: pointer;
 transition: 0.3s;
 }
-.btn-buy:hover { background: var(--accent); color: black; 
+.btn-buy:hover { background: var(--accent); color: black;
